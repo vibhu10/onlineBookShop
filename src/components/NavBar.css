@@ -1,0 +1,16 @@
+.navbar {
+  border-radius: 10px;
+  width: 100vw;
+  height: 90px;
+  display: flex
+;
+  justify-content: space-between;
+  background-color: #6f7a7d;
+}
+.navbar-img {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+  display: block;
+}

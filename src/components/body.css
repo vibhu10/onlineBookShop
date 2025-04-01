@@ -1,0 +1,35 @@
+.main-body {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.book-card {
+    width: 165px;
+    height: 320px;
+    margin: 10px;
+}
+.book-card img {
+    width: 100%; 
+    min-height: 200px;
+    max-height: 250px;
+    height: auto;
+    display: block; 
+    border-radius: 10px
+}
+.book-card h3 {
+    margin-bottom: 4px; /* Reduce space below h3 */
+    font-size: 16px; /* Adjust font size if needed */
+}
+
+.book-card p {
+    margin-top: 2px; /* Reduce space above p */
+    font-size: 14px; /* Adjust font size if needed */
+}
+
+.book-card:hover{
+    transform: scale(1.1);
+}
